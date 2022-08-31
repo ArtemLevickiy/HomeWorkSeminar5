@@ -22,28 +22,21 @@
 // выходные данные
 // 2014
 
-int y = 1987;
-int y2 = 1988;
-int firstNumber = y2 / 1000;
-Console.WriteLine(firstNumber);
-int secondNumber = y2 / 100 % 10;
-Console.WriteLine(secondNumber);
-int thirdNumber = y2 % 100 / 10;
-Console.WriteLine(thirdNumber);
-int fourthNumber = y2 % 10;
-Console.WriteLine(fourthNumber);
-while (y2 < 9000)
+int year = int.Parse(Console.ReadLine());
+
+void NextDiffYear(int year)
 {
-    if (firstNumber != secondNumber 
-    && secondNumber != thirdNumber && thirdNumber != firstNumber 
-    && thirdNumber != fourthNumber && fourthNumber != secondNumber && fourthNumber != firstNumber)
-    {
-        Console.WriteLine("YES");
-        break;
-    }
-    else
-    {
-        y2 = y2 + 1;
-    }
+for (int y = year + 1; ; y++)
+{
+int a = y / 1000;
+int b = y / 100 % 10;
+int c = y / 10 % 10;
+int d = y % 10;
+if (a != b && b != c && c != d && a != c && a != d && b != d)
+{
+Console.WriteLine($"ближайший по очереди год в котором все цифры различны {y}");
+return;
 }
-Console.WriteLine(y2);
+}
+}
+NextDiffYear(year);

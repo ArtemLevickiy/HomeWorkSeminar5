@@ -1,0 +1,15 @@
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\bin\Debug\net6.0\Task_01.exe
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\bin\Debug\net6.0\Task_01.deps.json
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\bin\Debug\net6.0\Task_01.runtimeconfig.json
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\bin\Debug\net6.0\Task_01.dll
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\bin\Debug\net6.0\Task_01.pdb
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\obj\Debug\net6.0\Task_01.csproj.AssemblyReference.cache
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\obj\Debug\net6.0\Task_01.GeneratedMSBuildEditorConfig.editorconfig
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\obj\Debug\net6.0\Task_01.AssemblyInfoInputs.cache
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\obj\Debug\net6.0\Task_01.AssemblyInfo.cs
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\obj\Debug\net6.0\Task_01.csproj.CoreCompileInputs.cache
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\obj\Debug\net6.0\Task_01.dll
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\obj\Debug\net6.0\refint\Task_01.dll
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\obj\Debug\net6.0\Task_01.pdb
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\obj\Debug\net6.0\Task_01.genruntimeconfig.cache
+F:\Geekbrains (Учеба)\Знакомство с языками программирования\Домашнее задание 5\Task_01\obj\Debug\net6.0\ref\Task_01.dll
