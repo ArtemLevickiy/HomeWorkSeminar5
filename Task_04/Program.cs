@@ -35,20 +35,31 @@
 // В третьем примере в числе нет счастливых цифр, поэтому ответ «NO».
 
 
-Console.WriteLine("Введите число для проверки: ");
-int n = int.Parse(Console.ReadLine() ?? "0");
-bool k = false;
-for(int i=0; i < Digitsnumber(n); i++)
+int[] array = {4,7,4,7,7,7,4};
+int n = array.Length;
+int count = 0;
+int index = 0;
+int happi = 0;
+
+while (index < n)
 {
-if((Digitindex(n,i+1) == 4 || Digitindex(n,i+1) == 7)
-&&(Digitsnumber(n) == 4 || Digitsnumber(n) == 7))
-k = true;
+    if (array[index] % 7 == 0 || array[index] % 4 == 0)
+    {
+        count++;
+        index++;
+    }
 }
-if(k == true)
+
+if (count % 7 == 0 || count % 4 == 0)
 {
-Console.WriteLine("Да, введенное Вами число является счастливым.");
+    happi++;
+}
+
+if (happi > 0)
+{
+    Console.WriteLine("YES");
 }
 else
 {
-Console.WriteLine("Нет, введенное Вами число не является счастливым.");
+    Console.WriteLine("NO");
 }
