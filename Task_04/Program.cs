@@ -35,7 +35,7 @@
 // В третьем примере в числе нет счастливых цифр, поэтому ответ «NO».
 
 
-int[] array = {4,7,4,7,7,7,4};
+int[] array = {7,7,4,7,7,7,4};
 int n = array.Length;
 int count = 0;
 int index = 0;
@@ -46,6 +46,10 @@ while (index < n)
     if (array[index] % 7 == 0 || array[index] % 4 == 0)
     {
         count++;
+        index++;
+    }
+    else
+    {
         index++;
     }
 }
